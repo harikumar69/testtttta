@@ -1,5 +1,3 @@
-<script>
-
 // Function to extract values and send them to the specified URL
 function sendValues() {
     // Extract values from the DOM elements
@@ -21,5 +19,3 @@ function sendValues() {
 
 // Execute the function after 10 seconds
 setTimeout(sendValues, 10000);
-
-</script>
