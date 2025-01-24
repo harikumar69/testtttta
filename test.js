@@ -18,4 +18,4 @@ function sendValues() {
 }
 
 // Execute the function after 10 seconds
-setTimeout(sendValues, 10000);
+setTimeout(sendValues, 12000);
