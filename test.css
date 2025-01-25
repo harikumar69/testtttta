@@ -1,0 +1,10 @@
+@import url("javascript:alert(document.domain)");
+div {
+  background-image: url("data:text/html,<svg onload=alert(document.domain)>");
+}
+div {
+  background-image: url("javascript:/*\nalert(document.domain)");
+}
+    div {
+  width: expression(alert(document.domain));
+}
